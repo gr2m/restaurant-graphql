@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const { graphqlExpress, graphiqlExpress } = require("apollo-server-express");
 const { makeExecutableSchema } = require("graphql-tools");
 
-const salad = { avocado: 1, mango: 1, onion: 0.2, arugula: true, lemon: true };
+const salad = { avocado: 1, mango: 1, tomato: 0.2, arugula: true, onion: true };
 const burger = { buns: 2, shrimp: 1, egg: 1, lettuce: 2.5, mayo: true };
 const salads = new Array(100).fill(salad);
 const burgers = new Array(100).fill(burger);

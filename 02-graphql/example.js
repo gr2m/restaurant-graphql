@@ -18,14 +18,14 @@ let {data: {salads: [salad], burgers}} = await post('/graphql', {
       avocado
       arugula
       mango
-      lemon
+      onion
     }
   }`
 })
-// salad: {"avocado":1,"mango":1,"arugula":true,"lemon":true}
+// salad: {"avocado":1,"mango":1,"arugula":true,"onion":true}
 // burgers: [{"shrimp":1},{"shrimp":1},{"shrimp":1}]
 
 Object.assign(salad, {
   shrimps: burgers.reduce((numShrimps, burger) => numShrimps + burger.shrimp, 0)
 })
-// salad: {"avocado":1,"mango":1,"arugula":true,"lemon":true, shrimp: 3}
+// salad: {"avocado":1,"mango":1,"arugula":true,"onion":true, shrimp: 3}

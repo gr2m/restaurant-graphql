@@ -7,7 +7,7 @@ module.exports = {
     avocado
     arugula
     mango
-    lemon
+    onion
   }
 }`
 };

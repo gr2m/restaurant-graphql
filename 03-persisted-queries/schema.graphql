@@ -14,7 +14,7 @@ type Burger {
 type Salad {
   avocado: Float!
   mango: Float!
-  onion: Float!
+  tomato: Float!
   arugula: Boolean!
-  lemon: Boolean!
+  onion: Boolean!
 }
