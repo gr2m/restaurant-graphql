@@ -16,5 +16,8 @@
     "graphql-subscriptions": "^0.5.5",
     "graphql-tools": "^2.13.0",
     "subscriptions-transport-ws": "^0.9.4"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
