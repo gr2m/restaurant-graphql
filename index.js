@@ -1,5 +1,3 @@
-const apiDoc = require("api-doc");
-
 const app =
   // require("./01-rest/server");
   // require("./02-graphql/server");

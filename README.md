@@ -2,7 +2,7 @@
 
 > A tasty introduction to GraphQL
 
-This repository is the source code of a tutorial, coming soon™
+[![Video Tutorial](assets/screenshot.png)](https://youtu.be/801P6PZvF5c)
 
 ## Quickstart
 
@@ -10,4 +10,8 @@ This repository is the source code of a tutorial, coming soon™
 * start with `node index.js`
 
 Questions? Ping me on Twitter [@grm2](https://twitter.com/gr2m)!
+
+## LICENSE
+
+[Apache-2.0](LICENSE)
 
